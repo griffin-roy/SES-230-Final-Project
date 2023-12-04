@@ -42,9 +42,9 @@ def simulate_half(attacking_team, defending_team):
     print(f"\n{attacking_team.name} is attacking, and {defending_team.name} is defending.")
 
     simulate_event(attacking_team, defending_team)
+    simulate_event(defending_team, attacking_team)
     simulate_event(attacking_team, defending_team)
-    simulate_event(attacking_team, defending_team)
-    simulate_event(attacking_team, defending_team)
+    simulate_event(defending_team, attacking_team)
 
 
 def simulate_event(attacking_team, defending_team):
